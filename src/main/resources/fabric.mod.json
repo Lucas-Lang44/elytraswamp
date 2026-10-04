@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswap",
+  "version": "${version}",
+  "name": "Elytra Swap",
+  "description": "Clic derecho con un peto en la mano para cambiarlo por las elytras equipadas (y al reves).",
+  "authors": ["Tu"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.elytraswap.ElytraSwap"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": "1.16.x",
+    "java": ">=8",
+    "fabric": "*"
+  }
+}
